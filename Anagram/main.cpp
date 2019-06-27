@@ -22,7 +22,7 @@ int main(){
     for(int i=1; i<=52; i++){
         if(a[i]!=b[i]){
             printf("NO\n");
-            exit(0);
+            exit(0); //In order to use this function the <algorithm> library must be called.
         }
     }
     printf("YES\n");
